@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Street View split-map-panes</title>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div id="pano"></div>
+    <div id="map"></div>
+    <div id="bar"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=API_KEY_HERE&callback=initialize&libraries=&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
